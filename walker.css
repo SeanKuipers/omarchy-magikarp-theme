@@ -1,9 +1,9 @@
 /* walker.css theme: Magikarp Splash */
 /* by Jules */
 
-@define-color selected-text #F1C40F;
-@define-color text #F4F0E1;
-@define-color base #2A2D34;
-@define-color border #D95F02;
-@define-color foreground #F4F0E1;
-@define-color background #2A2D34;
+@define-color selected-text #e3b15a;
+@define-color text #ffd998;
+@define-color base #a1422a;
+@define-color border #df7669;
+@define-color foreground #ffd998;
+@define-color background #a1422a;

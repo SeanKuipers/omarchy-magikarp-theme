@@ -1,5 +1,5 @@
 /* waybar.css theme: Magikarp Splash */
 /* by Jules */
 
-@define-color foreground #F4F0E1;
-@define-color background #2A2D34;
+@define-color foreground #ffd998;
+@define-color background rgba(161, 66, 42, 0.5);

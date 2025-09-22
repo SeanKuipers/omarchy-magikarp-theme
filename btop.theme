@@ -4,78 +4,52 @@
 # Colors should be in 6 character hexadecimal format: "#RRGGBB"
 
 # --- Main Colors ---
-# Main background, a deep dark slate
-theme[main_bg]="#2A2D34"
-
-# Main text color, a readable cream
-theme[main_fg]="#F4F0E1"
-
-# Title color for boxes, a vibrant orange
-theme[title]="#FF8C00"
-
-# Highlight color for keyboard shortcuts
-theme[hi_fg]="#FFD700"
-
-# Background color of selected items, a contrasting grey
-theme[selected_bg]="#5C6370"
-
-# Foreground color of selected items, a bright yellow
-theme[selected_fg]="#FFD700"
-
-# Color of inactive/disabled text
-theme[inactive_fg]="#5C6370"
-
-# Color of text appearing on top of graphs, matches main text
-theme[graph_text]="#F4F0E1"
-
-# Misc colors for processes box (tree-view lines)
-theme[proc_misc]="#5C6370"
+theme[main_bg]="#a1422a"
+theme[main_fg]="#ffd998"
+theme[title]="#df7669"
+theme[hi_fg]="#e3b15a"
+theme[selected_bg]="#c76449"
+theme[selected_fg]="#ffd998"
+theme[inactive_fg]="#e7b9bb"
+theme[graph_text]="#ffd998"
+theme[proc_misc]="#c76449"
 
 # --- Box Outlines ---
-# Consistent red for all box outlines
-theme[cpu_box]="#D95F02"
-theme[mem_box]="#D95F02"
-theme[net_box]="#D95F02"
-theme[proc_box]="#D95F02"
-theme[div_line]="#D95F02"
+theme[cpu_box]="#df7669"
+theme[mem_box]="#df7669"
+theme[net_box]="#df7669"
+theme[proc_box]="#df7669"
+theme[div_line]="#df7669"
 
 # --- Graphs and Meters ---
-# Temperature graph: warm to warmer
-theme[temp_start]="#D95F02"
+theme[temp_start]="#e3b15a"
 theme[temp_mid]=""
-theme[temp_end]="#D95F02"
+theme[temp_end]="#df7669"
 
-# CPU graph: a gradient of oranges
-theme[cpu_start]="#D95F02"
-theme[cpu_mid]="#FF8C00"
-theme[cpu_end]="#FF8C00"
+theme[cpu_start]="#e3b15a"
+theme[cpu_mid]="#df7669"
+theme[cpu_end]="#c76449"
 
-# Mem/Disk free meter: ramps up to a bright yellow
-theme[free_start]="#F1C40F"
+theme[free_start]="#e7b9bb"
 theme[free_mid]=""
-theme[free_end]="#FFD700"
+theme[free_end]="#ffd998"
 
-# Mem/Disk cached meter: a warm orange
-theme[cached_start]="#D95F02"
+theme[cached_start]="#e3b15a"
 theme[cached_mid]=""
-theme[cached_end]="#FF8C00"
+theme[cached_end]="#c76449"
 
-# Mem/Disk available meter: a soft cream
-theme[available_start]="#F4F0E1"
+theme[available_start]="#e7b9bb"
 theme[available_mid]=""
-theme[available_end]="#FFFFFF"
+theme[available_end]="#ffd998"
 
-# Mem/Disk used meter: orange-red
-theme[used_start]="#D95F02"
+theme[used_start]="#c76449"
 theme[used_mid]=""
-theme[used_end]="#FF8C00"
+theme[used_end]="#df7669"
 
-# Download graph: a gradient of oranges
-theme[download_start]="#D95F02"
+theme[download_start]="#e3b15a"
 theme[download_mid]=""
-theme[download_end]="#FF8C00"
+theme[download_end]="#df7669"
 
-# Upload graph: a gradient of oranges
-theme[upload_start]="#D95F02"
+theme[upload_start]="#e3b15a"
 theme[upload_mid]=""
-theme[upload_end]="#FF8C00"
+theme[upload_end]="#df7669"
