@@ -6,33 +6,33 @@ decorations = "full"
 # Magikarp Splash by Jules
 
 # Primary colors
-primary.background = "#2A2D34" # Dark Slate
-primary.foreground = "#F4F0E1" # Cream
+primary.background = "#a1422a"
+primary.foreground = "#ffd998"
 
 # Cursor colors
-cursor.cursor = "#F4F0E1" # Cream
-cursor.text = "#2A2D34"   # Dark Slate
+cursor.cursor = "#ffd998"
+cursor.text = "#a1422a"
 
 # Selection colors
-selection.background = "#5C6370" # Grey
-selection.text = "#F4F0E1"       # Cream
+selection.background = "#e3b15a"
+selection.text = "#a1422a"
 
 # Normal colors
-normal.black = "#1c1e22"   # Soft Black
-normal.red = "#D95F02"     # Orange-Red
-normal.green = "#D95F02"   # Orange-Red
-normal.yellow = "#FFD700"  # Gold
-normal.blue = "#D95F02"    # Orange-Red
-normal.magenta = "#D95F02" # Orange-Red
-normal.cyan = "#D95F02"    # Orange-Red
-normal.white = "#F4F0E1"   # Cream
+normal.black = "#3d3d3d"
+normal.red = "#df7669"
+normal.green = "#e3b15a"
+normal.yellow = "#e3b15a"
+normal.blue = "#c76449"
+normal.magenta = "#e7b9bb"
+normal.cyan = "#c76449"
+normal.white = "#ffd998"
 
 # Bright colors
-bright.black = "#5C6370"   # Grey
-bright.red = "#FF8C00"     # Bright Orange
-bright.green = "#FF8C00"   # Bright Orange
-bright.yellow = "#F1C40F"  # Yellow
-bright.blue = "#FF8C00"    # Bright Orange
-bright.magenta = "#FF8C00" # Bright Orange
-bright.cyan = "#FF8C00"    # Bright Orange
-bright.white = "#FFFFFF"   # White
+bright.black = "#585858"
+bright.red = "#df7669"
+bright.green = "#e3b15a"
+bright.yellow = "#e3b15a"
+bright.blue = "#c76449"
+bright.magenta = "#e7b9bb"
+bright.cyan = "#c76449"
+bright.white = "#ffd998"
