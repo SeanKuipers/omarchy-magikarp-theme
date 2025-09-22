@@ -1,0 +1,81 @@
+# btop theme: Magikarp Splash
+# by Jules
+
+# Colors should be in 6 character hexadecimal format: "#RRGGBB"
+
+# --- Main Colors ---
+# Main background, a deep dark slate
+theme[main_bg]="#2A2D34"
+
+# Main text color, a readable cream
+theme[main_fg]="#F4F0E1"
+
+# Title color for boxes, a vibrant orange
+theme[title]="#FF8C00"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#FFD700"
+
+# Background color of selected items, a contrasting grey
+theme[selected_bg]="#5C6370"
+
+# Foreground color of selected items, a bright yellow
+theme[selected_fg]="#FFD700"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#5C6370"
+
+# Color of text appearing on top of graphs, matches main text
+theme[graph_text]="#F4F0E1"
+
+# Misc colors for processes box (tree-view lines)
+theme[proc_misc]="#5C6370"
+
+# --- Box Outlines ---
+# Consistent blue for all box outlines
+theme[cpu_box]="#3498DB"
+theme[mem_box]="#3498DB"
+theme[net_box]="#3498DB"
+theme[proc_box]="#3498DB"
+theme[div_line]="#3498DB"
+
+# --- Graphs and Meters ---
+# Temperature graph: cool to warm
+theme[temp_start]="#3498DB"
+theme[temp_mid]=""
+theme[temp_end]="#D95F02"
+
+# CPU graph: a gradient from blue to bright orange
+theme[cpu_start]="#3498DB"
+theme[cpu_mid]="#5FADDB"
+theme[cpu_end]="#FF8C00"
+
+# Mem/Disk free meter: ramps up to a bright yellow
+theme[free_start]="#F1C40F"
+theme[free_mid]=""
+theme[free_end]="#FFD700"
+
+# Mem/Disk cached meter: a cool blue
+theme[cached_start]="#3498DB"
+theme[cached_mid]=""
+theme[cached_end]="#5FADDB"
+
+# Mem/Disk available meter: a soft cream
+theme[available_start]="#F4F0E1"
+theme[available_mid]=""
+theme[available_end]="#FFFFFF"
+
+# Mem/Disk used meter: orange-red
+theme[used_start]="#D95F02"
+theme[used_mid]=""
+theme[used_end]="#FF8C00"
+
+# Download graph: a gradient of blues
+theme[download_start]="#3498DB"
+theme[download_mid]=""
+theme[download_end]="#5FADDB"
+
+# Upload graph: a gradient of oranges
+theme[upload_start]="#D95F02"
+theme[upload_mid]=""
+theme[upload_end]="#FF8C00"
