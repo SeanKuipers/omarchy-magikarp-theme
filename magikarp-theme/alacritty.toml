@@ -1,0 +1,29 @@
+[colors]
+# Magikarp theme for Alacritty
+
+# Default colors
+[colors.primary]
+background = "#1e1e1e"
+foreground = "#d4d4d4"
+
+# Normal colors
+[colors.normal]
+black   = "#000000"
+red     = "#F08030"
+green   = "#A8A878"
+yellow  = "#F8D030"
+blue    = "#6890F0"
+magenta = "#F08030"
+cyan    = "#6890F0"
+white   = "#FFFFFF"
+
+# Bright colors
+[colors.bright]
+black   = "#555555"
+red     = "#F8A860"
+green   = "#A8A878"
+yellow  = "#F8D030"
+blue    = "#6890F0"
+magenta = "#F8A860"
+cyan    = "#6890F0"
+white   = "#FFFFFF"
