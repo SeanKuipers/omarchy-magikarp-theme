@@ -1,0 +1,36 @@
+# eza.yml theme: Magikarp Splash
+# by Jules
+
+# The color names used here (e.g., "blue", "yellow") are standard names
+# that will be mapped to the Magikarp Splash color palette by your
+# terminal's color scheme.
+colors:
+  # Permissions
+  read: "blue"      # Mapped to the theme's blue
+  write: "yellow"   # Mapped to the theme's yellow
+  exec: "red"       # Mapped to the theme's orange-red
+  no_perms: "gray"
+
+  # File sizes
+  size:
+    value: "yellow"
+    unit: "yellow"
+
+  # User and Group
+  user: "white"     # Mapped to the theme's cream/white
+  group: "white"
+
+  # Timestamps
+  date: "default"
+
+  # File types
+  directory: "blue,bold"
+  symlink: "cyan"
+  pipe: "yellow"
+  socket: "magenta"
+
+# Specific styling for file names using glob patterns
+file_name:
+  "README.md": "on_yellow"
+  "README.txt": "on_yellow"
+  "README": "on_yellow"

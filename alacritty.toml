@@ -1,29 +1,38 @@
-[colors]
-# Magikarp theme for Alacritty
+[window]
+# This section is optional but recommended for a complete look.
+decorations = "full"
 
-# Default colors
-[colors.primary]
-background = "#1e1e1e"
-foreground = "#d4d4d4"
+[colors]
+# Magikarp Splash by Jules
+
+# Primary colors
+primary.background = "#2A2D34" # Dark Slate
+primary.foreground = "#F4F0E1" # Cream
+
+# Cursor colors
+cursor.cursor = "#F4F0E1" # Cream
+cursor.text = "#2A2D34"   # Dark Slate
+
+# Selection colors
+selection.background = "#5C6370" # Grey
+selection.text = "#F4F0E1"       # Cream
 
 # Normal colors
-[colors.normal]
-black   = "#000000"
-red     = "#F08030"
-green   = "#A8A878"
-yellow  = "#F8D030"
-blue    = "#6890F0"
-magenta = "#F08030"
-cyan    = "#6890F0"
-white   = "#FFFFFF"
+normal.black = "#1c1e22"   # Soft Black
+normal.red = "#D95F02"     # Orange-Red
+normal.green = "#3498DB"   # Blue
+normal.yellow = "#FFD700"  # Gold
+normal.blue = "#3498DB"    # Blue
+normal.magenta = "#D95F02" # Orange-Red
+normal.cyan = "#3498DB"    # Blue
+normal.white = "#F4F0E1"   # Cream
 
 # Bright colors
-[colors.bright]
-black   = "#555555"
-red     = "#F8A860"
-green   = "#A8A878"
-yellow  = "#F8D030"
-blue    = "#6890F0"
-magenta = "#F8A860"
-cyan    = "#6890F0"
-white   = "#FFFFFF"
+bright.black = "#5C6370"   # Grey
+bright.red = "#FF8C00"     # Bright Orange
+bright.green = "#5FADDB"   # Light Blue
+bright.yellow = "#F1C40F"  # Yellow
+bright.blue = "#5FADDB"    # Light Blue
+bright.magenta = "#FF8C00" # Bright Orange
+bright.cyan = "#5FADDB"    # Light Blue
+bright.white = "#FFFFFF"   # White
