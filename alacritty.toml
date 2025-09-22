@@ -20,19 +20,19 @@ selection.text = "#F4F0E1"       # Cream
 # Normal colors
 normal.black = "#1c1e22"   # Soft Black
 normal.red = "#D95F02"     # Orange-Red
-normal.green = "#3498DB"   # Blue
+normal.green = "#D95F02"   # Orange-Red
 normal.yellow = "#FFD700"  # Gold
-normal.blue = "#3498DB"    # Blue
+normal.blue = "#D95F02"    # Orange-Red
 normal.magenta = "#D95F02" # Orange-Red
-normal.cyan = "#3498DB"    # Blue
+normal.cyan = "#D95F02"    # Orange-Red
 normal.white = "#F4F0E1"   # Cream
 
 # Bright colors
 bright.black = "#5C6370"   # Grey
 bright.red = "#FF8C00"     # Bright Orange
-bright.green = "#5FADDB"   # Light Blue
+bright.green = "#FF8C00"   # Bright Orange
 bright.yellow = "#F1C40F"  # Yellow
-bright.blue = "#5FADDB"    # Light Blue
+bright.blue = "#FF8C00"    # Bright Orange
 bright.magenta = "#FF8C00" # Bright Orange
-bright.cyan = "#5FADDB"    # Light Blue
+bright.cyan = "#FF8C00"    # Bright Orange
 bright.white = "#FFFFFF"   # White
