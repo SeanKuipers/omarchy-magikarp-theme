@@ -32,22 +32,22 @@ theme[graph_text]="#F4F0E1"
 theme[proc_misc]="#5C6370"
 
 # --- Box Outlines ---
-# Consistent blue for all box outlines
-theme[cpu_box]="#3498DB"
-theme[mem_box]="#3498DB"
-theme[net_box]="#3498DB"
-theme[proc_box]="#3498DB"
-theme[div_line]="#3498DB"
+# Consistent red for all box outlines
+theme[cpu_box]="#D95F02"
+theme[mem_box]="#D95F02"
+theme[net_box]="#D95F02"
+theme[proc_box]="#D95F02"
+theme[div_line]="#D95F02"
 
 # --- Graphs and Meters ---
-# Temperature graph: cool to warm
-theme[temp_start]="#3498DB"
+# Temperature graph: warm to warmer
+theme[temp_start]="#D95F02"
 theme[temp_mid]=""
 theme[temp_end]="#D95F02"
 
-# CPU graph: a gradient from blue to bright orange
-theme[cpu_start]="#3498DB"
-theme[cpu_mid]="#5FADDB"
+# CPU graph: a gradient of oranges
+theme[cpu_start]="#D95F02"
+theme[cpu_mid]="#FF8C00"
 theme[cpu_end]="#FF8C00"
 
 # Mem/Disk free meter: ramps up to a bright yellow
@@ -55,10 +55,10 @@ theme[free_start]="#F1C40F"
 theme[free_mid]=""
 theme[free_end]="#FFD700"
 
-# Mem/Disk cached meter: a cool blue
-theme[cached_start]="#3498DB"
+# Mem/Disk cached meter: a warm orange
+theme[cached_start]="#D95F02"
 theme[cached_mid]=""
-theme[cached_end]="#5FADDB"
+theme[cached_end]="#FF8C00"
 
 # Mem/Disk available meter: a soft cream
 theme[available_start]="#F4F0E1"
@@ -70,10 +70,10 @@ theme[used_start]="#D95F02"
 theme[used_mid]=""
 theme[used_end]="#FF8C00"
 
-# Download graph: a gradient of blues
-theme[download_start]="#3498DB"
+# Download graph: a gradient of oranges
+theme[download_start]="#D95F02"
 theme[download_mid]=""
-theme[download_end]="#5FADDB"
+theme[download_end]="#FF8C00"
 
 # Upload graph: a gradient of oranges
 theme[upload_start]="#D95F02"
