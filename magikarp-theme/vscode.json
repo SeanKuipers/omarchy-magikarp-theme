@@ -1,0 +1,53 @@
+{
+  "name": "Magikarp",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e1e1e",
+    "editor.foreground": "#d4d4d4",
+    "activityBar.background": "#D86828",
+    "sideBar.background": "#252526",
+    "sideBar.foreground": "#cccccc",
+    "sideBar.border": "#333333",
+    "sideBarSectionHeader.background": "#00000000",
+    "list.activeSelectionBackground": "#F08030",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#37373d",
+    "list.hoverBackground": "#2a2d2e",
+    "list.focusBackground": "#F08030",
+    "list.focusForeground": "#ffffff",
+    "statusBar.background": "#F8D030",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.noFolderBackground": "#F8D030",
+    "titleBar.activeBackground": "#D86828",
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveBackground": "#D86828",
+    "titleBar.inactiveForeground": "#ffffffcc"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#A8A878",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#6890F0"
+      }
+    },
+    {
+        "scope": ["keyword"],
+        "settings": {
+            "foreground": "#F08030"
+        }
+    },
+    {
+        "scope": ["number"],
+        "settings": {
+            "foreground": "#F8D030"
+        }
+    }
+  ]
+}
